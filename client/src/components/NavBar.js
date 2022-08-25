@@ -1,5 +1,5 @@
 import React from 'react'
-
+import SignUp from './SignUp'
 const NavBar = () => {
   return (
     <div>
@@ -10,12 +10,13 @@ const NavBar = () => {
                         TrueColors
                     </p>
                     <div>
-                    <button className="p-2 text-xl text-white  hover:bg-white hover:text-black">Sign Up</button>
+                    <button className="p-2 text-xl text-white  hover:bg-white hover:text-black ">Sign Up</button>
                     <button className="p-2 text-xl  hover:bg-white hover:text-black">Log-in</button>
                     <button className="p-2 text-xl hover:bg-white hover:text-black"><img src='./imgs/cart.svg' alt='cart'></img> cart</button>
                     <button className="p-2 text-xl  hover:bg-white hover:text-black"><img src='./imgs/menu.svg' alt='more'></img> more</button>
                     </div>
                 </div>
+                
 
             </nav>
 
