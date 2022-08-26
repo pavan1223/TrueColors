@@ -26,7 +26,7 @@ const SignUp = () => {
                 <label for='confirmPassword' className="text-sm">Confirm Password</label>
                 <input type='password' className='h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm mb-2' id='confirmPassword'></input>     
 
-                <input type='submit' className='bg-blue-700 w-full h-10 cursor-pointer text-white wounded-md hover:bg-blue-600 hover:outline outline-2 outline-blue-600 outline-offset-2 text-sm' id='signUp'></input>  <br></br>
+                <input type='submit' className=' bg-blue-700 w-full h-10 cursor-pointer text-white  border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm mb-2 hover:bg-blue-600 hover:outline outline-2 outline-blue-600 outline-offset-2 text-sm rounded-md border' id='signUp'></input>  <br></br>
                 <p class="text-xs my-2">Already have an account?<a href="#" className='text-blue-600'>Login</a></p>   
 
                 </form>   
